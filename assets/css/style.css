@@ -2,7 +2,6 @@ body {
     /* background-color: linen; */
     background-image: url(../images/ballpen-blank-desk-606541.jpg);
     background-size: cover;
-    
     font-family: 'Indie Flower', cursive;
 }
 header{
@@ -42,7 +41,8 @@ header{
     /* background-color: lightblue; */
 }
 #cartoon {
-    opacity: .75;
+    float: right;
+    margin-right: 20%; 
 }
 #tweet {
     height: 100px;
@@ -69,12 +69,19 @@ footer {
     text-align: center;
     color: aliceblue;
     background-color: rgb(1,64,161);
-    position: absolute;
+    position: fixed;
     bottom: 0;
     opacity: .75;
 }
 .coder{
     float: right;
-    opacity: .75;
+    color: aliceblue;
     margin: 2px 10px 0 0;
 }
+@media screen and(max-width:980px) {
+    #name-head {
+        float: left;
+        color: rgb(161, 14, 1);
+        /* background-color: lightblue; */
+    }
+};
