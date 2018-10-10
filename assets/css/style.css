@@ -8,9 +8,11 @@ body {
 header{
     margin: 20px;
 }
+.cool{
+    opacity: .75;
+}
 #content{
     /* margin: 20px; */
-    opacity: .75;
     height: 100%;
     width: 100%;
 }
@@ -60,4 +62,19 @@ header{
 }
 .bigger {
     font-size: 19px;
+}
+footer {
+    height: 5%;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(1,64,161);
+    position: absolute;
+    bottom: 0;
+    opacity: .75;
+}
+.coder{
+    float: right;
+    opacity: .75;
+    margin: 2px 10px 0 0;
 }
