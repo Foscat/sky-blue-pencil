@@ -1,0 +1,63 @@
+body {
+    /* background-color: linen; */
+    background-image: url(../images/ballpen-blank-desk-606541.jpg);
+    background-size: cover;
+    
+    font-family: 'Indie Flower', cursive;
+}
+header{
+    margin: 20px;
+}
+#content{
+    /* margin: 20px; */
+    opacity: .75;
+    height: 100%;
+    width: 100%;
+}
+/* General wrapper for aligning content to the horozontal center */
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* gives even spacing between elements */
+.around {
+    justify-content: space-around;
+}
+/* general class to make things really bold */
+.boldest{
+    font-weight: bolder;
+}
+.darkie {
+    font-weight: bold;
+}
+#title{
+    font-size: 50px;
+}
+#name-head {
+    float: left;
+    color: rgb(1,64,161);
+    /* background-color: lightblue; */
+}
+#cartoon {
+    opacity: .75;
+}
+#tweet {
+    height: 100px;
+    width: 100px;
+    clip-path: circle(49% at 50% 50%);
+}
+#fb {
+    height: 120px;
+    width: 120px;
+}
+#email {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    background-color: darkcyan;
+    color: azure;
+}
+.bigger {
+    font-size: 19px;
+}
